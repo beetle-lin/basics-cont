@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="settings-page.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SETTINGS PAGE</h1>
+
+    <button class="accordion">TIGER </button>
+
+    <div class="panel">
+        <p> The tiger is the largest cat species, most recognisible for their
+            patter of dark vertical stripes </p>
+
+            </div>
+
+            <button class="accordion"> LION </button>
+            <div class="panel">
+                <p> The lion is one of the biggest cat in the genus panthera and the member 
+                    of the felidae,. </p>
+
+                    </div>
+
+                    <button class="accordion"> CHEETAH </button>
+
+                    <div class="panel">
+                        <p> The cheetah also known as the hunting leopard is one of the fastest cat 
+                            that ever existed </p>
+
+                            </div>
+
+                            <script>
+                                var acc = document
+                                .getElementsByClassName("accordion");
+
+                                var i;
+
+                                for (i=0; i<acc.length; i++) {
+                                    acc[i].onclick = function(){
+                                        this.classList.toggle("active");
+                                        this.nextElementSibling.classList
+                                        .toggle("show");
+                                    }
+                                }
+
+                            </script>
