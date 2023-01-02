@@ -1,0 +1,25 @@
+body{
+    background-image: url(51.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+p{
+    color:red;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+}
+h3{
+    color: aqua;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
